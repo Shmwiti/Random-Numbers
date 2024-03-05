@@ -9,7 +9,7 @@ public class RandomNumber {
 		Random rand = new Random ();
 		
 		answer = keyboard.nextInt(MAX) + 1;
-		System.out.print("Guess a number btn 1 and 100:");
+		System.out.print("Guess a number between 1 and 100:");
 		guess =keyboard.nextInt();
 		if(guess==answer) {
 			System.out.println("Good job,the number was"+ answer);
